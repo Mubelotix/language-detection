@@ -8,6 +8,11 @@ source .venv/bin/activate
 pip install fasttext
 pip install numpy==1.26.4
 wget https://dl.fbaipublicfiles.com/fasttext/supervised-models/lid.176.bin
+wget https://huggingface.co/datasets/cardiffnlp/tweet_topic_multilingual/resolve/main/dataset/es/es_1000.jsonl
+wget https://huggingface.co/datasets/cardiffnlp/tweet_topic_multilingual/resolve/main/dataset/en/en_1000.jsonl
+wget https://huggingface.co/datasets/cardiffnlp/tweet_topic_multilingual/resolve/main/dataset/gr/gr_1000.jsonl
+wget https://huggingface.co/datasets/cardiffnlp/tweet_topic_multilingual/resolve/main/dataset/ja/ja_1000.jsonl
+
 ```
 
 ## Ideas
