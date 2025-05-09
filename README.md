@@ -12,7 +12,7 @@ wget https://dl.fbaipublicfiles.com/fasttext/supervised-models/lid.176.bin
 
 ## Ideas
 
-- Make a cli chatgpt based on the example of the course
+- Make a cli chatbot based on the example of the course
 - Turn it into a discord bot
 - Test the code on a real dataset
 - Test it on fake languages
