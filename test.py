@@ -15,6 +15,7 @@ for language in languages:
     file = open(language + "_1000.jsonl", "r")
     lines = file.readlines()
     errors = 0
+    confidence_sum = 0
     for line in lines:
         parsed = json.loads(line.strip())
         text = parsed["text"].replace("\n", " ")
@@ -22,5 +23,8 @@ for language in languages:
         if lang != language:
             errors += 1
             print(f"Detected language: {lang} instead of {language} (Confidence: {conf:.2f})")
+        else:
+            confidence_sum += conf
     file.close()
     print(f"Errors for {language}: {errors}")
+    print(f"Average confidence for {language}: {confidence_sum / (len(lines) - errors):.2f}")
