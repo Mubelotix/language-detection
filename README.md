@@ -14,6 +14,6 @@ wget https://dl.fbaipublicfiles.com/fasttext/supervised-models/lid.176.bin
 
 - Make a cli chatbot based on the example of the course
 - Turn it into a discord bot
-- Test the code on a real dataset
+- Test the code on [a real dataset](https://huggingface.co/datasets/cardiffnlp/tweet_topic_multilingual)
 - Test it on fake languages
 - Test it on a mix of languages
