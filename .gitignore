@@ -1,3 +1,5 @@
 .venv
 lid.*.bin
 *_1000.jsonl
+.env
+__pycache__
