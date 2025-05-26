@@ -9,7 +9,6 @@ def detect_language(text):
     confidence = prediction[1][0]
     return lang_code, confidence
 
-# Example
 if __name__ == "__main__":
     text = input("Enter text to identify language: ")
     lang, conf = detect_language(text)

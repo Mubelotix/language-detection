@@ -1,0 +1,18 @@
+Lot of unsupported language, then some english :
+𓁶𓇓𓏏𓇳 𓈖𓋴𓅱 𓃀𓇾 𓂋𓄫𓈖𓏏𓊪𓋴 some english text
+=> detected as english, the unsupported language is correctly ignored
+
+Same amount of english and german :
+some english text and ein bisschen deutsch dazu
+ein bisschen deutsch aber same of english text
+=> German prevails over english
+
+Same amount of english and french :
+some english text and un peu de français
+un peu français mais same of english text
+=> French prevails over english
+
+Same amount of polish and english :
+some english trochę polskiego
+trochę polskiego but english
+=> Polish prevails over english

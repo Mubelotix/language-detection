@@ -50,7 +50,7 @@ while(True):
     lang, conf = detect_language(answer)
 
     if not lang in vectorizers:
-        print("Language", lang, "not supported")
+        print("Language", lang, "not supported (confidence:", conf, ")")
         continue
 
     vectorizer, X, answers = vectorizers[lang]
